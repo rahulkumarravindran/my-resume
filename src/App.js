@@ -10,6 +10,7 @@ function App() {
     emailAddress: 'ramukluhar11@gmail.com',
     phone: '+1 (226) 961 5446',
     professionalTraits: ['Team Player','Problem solving capability','Customer handling and Requirement gathering.'],
+    summary: ['An Enthusiastic, Creative and Resilient graduate student at the prestigious University of Windsor who has an experience of 2 years in the field of Information Technology as a Project Engineer at Wipro Ltd.','Looking for an environment that offers a greater challenge and allows me to develop my skills and knowledge that helps realize my true potential.'],
   }
   return (
     <div className="App">
