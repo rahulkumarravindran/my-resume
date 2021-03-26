@@ -1,13 +1,69 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: regular 400;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.resume{
+  max-width: 733px;
+  width: 50%;
+  margin: auto;
+  box-shadow: 5px 5px 5px 5px #BDC8E9;
 }
+
+.photo{
+  max-width: 143px;
+  max-height: 143px;
+  padding-left: 20px;
+}
+
+.photo img{
+  height: auto;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.header{
+  background-color: #152F79;
+  color: #ECEDF0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 8px;
+  padding-right: 70px;
+}
+
+.body{
+  display: flex;
+  justify-content: space-around;
+  color: #152F79;
+  
+}
+
+.body-right{
+  border: 1px solid black;
+  color: #152F79;
+  text-align: left;
+  font-size: 15px;
+  width: 65%;
+  padding: 4px;
+}
+
+.body-left{
+  border: 1px solid blue;
+  color: #152F79;
+  text-align: left;
+  font-size: 15px;
+  width: 35%;
+  padding: 4px;
+}
+
+.body .body-left ul{
+  padding-left: 19px;
+}
+
+
