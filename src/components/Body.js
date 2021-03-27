@@ -13,6 +13,9 @@ const Body = (props) => {
             <div className='body-right'>
                 <h4>Summary</h4>
                 {props.resumeDetails.summary.map((element,index) => <p style={{paddingbottom: "4px"}} key={index}>{element}</p>)}
+                <br></br>
+                <h4>Work Experience</h4>
+
             </div>
         </div>
     )
