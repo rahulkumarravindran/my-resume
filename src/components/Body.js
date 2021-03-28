@@ -10,6 +10,7 @@ const Body = (props) => {
                         return( <li key={index}>{element}</li>)})}
                 </ul>
             </div>
+            <div class="middleLine"></div>
             <div className='body-right'>
                 <h4>Summary</h4>
                 {props.resumeDetails.summary.map((element,index) => <p style={{paddingbottom: "4px"}} key={index}>{element}</p>)}

@@ -27,6 +27,23 @@
   border-radius: 50%;
 }
 
+.headerDetail img{
+  max-width: 20px;
+  max-height: 20px;
+  box-sizing: content-box;
+  padding-right: 7px;
+}
+
+.headerDetail h5{
+  padding-left: 10px;
+}
+
+.headerDetail{
+  display: flex;
+  justify-content: space-around;
+}
+
+
 .header{
   background-color: #152F79;
   color: #ECEDF0;
@@ -45,21 +62,33 @@
 }
 
 .body-right{
-  border: 1px solid black;
   color: #152F79;
   text-align: left;
   font-size: 15px;
   width: 65%;
-  padding: 4px;
+  padding: 6px;
+  padding-left: 10px;
+  
+}
+
+.middleLine{
+  min-width: 1px;
+  background-color: #152F79;
+  border: 2px solid #152F79;
+  box-sizing: content-box;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
 }
 
 .body-left{
-  border: 1px solid blue;
   color: #152F79;
   text-align: left;
   font-size: 15px;
   width: 35%;
-  padding: 4px;
+  padding-left: 15px;
+  padding-right: 0px;
+  padding-top: 6px;
 }
 
 .body .body-left ul{
