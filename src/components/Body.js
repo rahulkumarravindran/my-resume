@@ -15,6 +15,12 @@ const Body = (props) => {
                 {props.resumeDetails.summary.map((element,index) => <p style={{paddingbottom: "4px"}} key={index}>{element}</p>)}
                 <br></br>
                 <h4>Work Experience</h4>
+                {props.resumeDetails.workExperience.map((element,index)=> {return <>
+                <h5>{element.role}</h5>
+                <h5>{element.timePeriod}</h5>
+                <ul>
+                    {element.responsiblities.map((responsibility,index)=>{return <li key={index}>{responsibility}</li>})
+                    }</ul></>})}
 
             </div>
         </div>
