@@ -22,6 +22,12 @@ const Body = (props) => {
                 <ul>
                     {element.responsiblities.map((responsibility,index)=>{return <li key={index}>{responsibility}</li>})
                     }</ul></>})}
+                    <br></br>
+                <h4>Education</h4>
+                {props.resumeDetails.education.map((educationDetail,index) => {return <>
+                <h5>{educationDetail.institution}</h5>
+                <p>{educationDetail.field}</p>
+                </>})}                
 
             </div>
         </div>
