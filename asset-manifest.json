@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/my-resume/static/css/main.975a0bcc.chunk.css",
+    "main.js": "/my-resume/static/js/main.7dd44a30.chunk.js",
+    "main.js.map": "/my-resume/static/js/main.7dd44a30.chunk.js.map",
+    "runtime-main.js": "/my-resume/static/js/runtime-main.d8c48004.js",
+    "runtime-main.js.map": "/my-resume/static/js/runtime-main.d8c48004.js.map",
+    "static/js/2.2ab3a0e4.chunk.js": "/my-resume/static/js/2.2ab3a0e4.chunk.js",
+    "static/js/2.2ab3a0e4.chunk.js.map": "/my-resume/static/js/2.2ab3a0e4.chunk.js.map",
+    "static/js/3.2a102ed4.chunk.js": "/my-resume/static/js/3.2a102ed4.chunk.js",
+    "static/js/3.2a102ed4.chunk.js.map": "/my-resume/static/js/3.2a102ed4.chunk.js.map",
+    "index.html": "/my-resume/index.html",
+    "static/css/main.975a0bcc.chunk.css.map": "/my-resume/static/css/main.975a0bcc.chunk.css.map",
+    "static/js/2.2ab3a0e4.chunk.js.LICENSE.txt": "/my-resume/static/js/2.2ab3a0e4.chunk.js.LICENSE.txt",
+    "static/media/address.9cc618aa.png": "/my-resume/static/media/address.9cc618aa.png",
+    "static/media/email.47e49567.png": "/my-resume/static/media/email.47e49567.png",
+    "static/media/phone.4132e984.png": "/my-resume/static/media/phone.4132e984.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d8c48004.js",
+    "static/js/2.2ab3a0e4.chunk.js",
+    "static/css/main.975a0bcc.chunk.css",
+    "static/js/main.7dd44a30.chunk.js"
+  ]
+}
