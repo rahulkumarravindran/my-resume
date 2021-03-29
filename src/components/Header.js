@@ -9,7 +9,7 @@ const Header = (props) => {
             <div className='photo'>
                 <img src={profile_photo} alt='profile_photo'></img>
             </div>
-            <div>
+            <div  className='headerDetails'>
                 <h1>{props.resumeDetails.name}</h1>
                 <h3>{props.resumeDetails.designation}</h3>
                 <br></br>
