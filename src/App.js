@@ -17,7 +17,6 @@ function App() {
     technicalSkills: ['Python, HTML, CSS','JavaScript, React','Ab Initio, Informatica','SQL'],
     areasOfInterest : ['Software Development','IoT','Machine Learning'],
     languages: ['English','Tamil', 'Hindi'],
-    links:{github:'https://github.com/rahulkumarravindran',linkedin:'https://www.linkedin.com/in/rahulkumarravindran/',stackoverflow:'https://stackoverflow.com/users/11459926/rahul'},
 
   }
   return (
