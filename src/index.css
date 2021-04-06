@@ -54,7 +54,7 @@
   padding-right: 70px;
 }
 
-.body-top{
+.body{
   display: flex;
   justify-content: space-around;
   color: #152F79;
@@ -91,45 +91,16 @@
   padding-top: 6px;
 }
 
-.body-top .body-left ul{
+.body .body-left ul{
   padding-left: 19px;
 }
 
-.body-top .body-right ul{
+.body .body-right ul{
   padding-left: 19px;
 }
 
-.body-top .body-right h5{
+.body .body-right h5{
   padding-top: 5px;
-}
-
-.body-bottom{
-  color:  #152F79;
-  align-items: flex-start;
-}
-
-.body-bottom h4{
-  text-align: left;
-  box-sizing: content-box;
-  padding-left: 15px;
-}
-
-.body-bottom a{
-  text-decoration: none;
-  color: #152F79;
-}
-
-.body-bottom h5{
-  box-sizing: content-box;
-  padding-top: 5px;
-  align-content: left;
-}
-
-.body-bottom h5 img{
-  box-sizing: content-box;
-  height: 20px;
-  width: 20px;
-  padding-right: 7px;
 }
 
 @media screen and (max-width: 1092px) {
