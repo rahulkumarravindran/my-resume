@@ -1,8 +1,13 @@
 import Bullets from './Bullets'
+import githubImage from './static/github.png'
+import stackoverflowImage from './static/stackoverflow.png'
+import linkedinImage from './static/linkedin.png'
+
 const Body = (props) => {
     
     return(
-        <div className='body'>
+        <>
+        <div className='body-top'>
             <div className='body-left'>
                 <h4>Professional Traits</h4>
                 <Bullets bulletPoints={props.resumeDetails.professionalTraits}/>
@@ -35,6 +40,14 @@ const Body = (props) => {
 
             </div>
         </div>
+        <br></br>
+        <div className='body-bottom'> 
+            <h4>Social Media Links</h4>
+            <a href={props.resumeDetails.links.github}><h5><img src={githubImage} alt='Github:'></img>{props.resumeDetails.links.github}</h5></a> 
+            <a href={props.resumeDetails.links.stackoverflow}><h5><img src={stackoverflowImage} alt='StackOverFlow'></img>{props.resumeDetails.links.stackoverflow}</h5></a> 
+            <a href={props.resumeDetails.links.linkedin}><h5><img src={linkedinImage} alt='LinkedIn'></img>{props.resumeDetails.links.linkedin}</h5></a>
+        </div>
+        </>
     )
 }
 
