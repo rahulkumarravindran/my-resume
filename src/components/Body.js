@@ -48,8 +48,11 @@ const Body = (props) => {
             <a href={props.resumeDetails.links.linkedin}><h5><img src={linkedinImage} alt='LinkedIn'></img>{props.resumeDetails.links.linkedin}</h5></a>
             <br></br>
             <h4>Projects:</h4>
-            <h5></h5>
-            <p></p>
+            <ol>{props.resumeDetails.projects.map((project)=>{return <li><h5>{project.name}</h5>
+            <p>Created using : {project.technology}</p>
+            <p>{project.description}</p>
+            <p>{project.sourceCode}</p></li>})}</ol>
+            
         </div>
         </>
     )
