@@ -105,18 +105,22 @@
 
 .body-bottom{
   color:  #152F79;
-  align-items: flex-start;
-}
-
-.body-bottom h4{
   text-align: left;
   box-sizing: content-box;
   padding-left: 15px;
 }
 
+.body-bottom h4{
+  text-align: left;
+  box-sizing: content-box;
+  
+}
+
 .body-bottom a{
   text-decoration: none;
   color: #152F79;
+  width: 50%;
+  
 }
 
 .body-bottom h5{

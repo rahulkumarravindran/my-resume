@@ -5,7 +5,7 @@ import Body from './components/Body'
 function App() {
   const resumeDetails = {
     name: 'Rahul Kumar Ravindran',
-    designation :'Web developer, Python Developer',
+    designation :'Graduate Student, Web developer, Python Developer',
     address:'Janette Ave, Windsor, ON, Canada. N9A 4Z5',
     emailAddress: 'ramukluhar11@gmail.com',
     phone: '+1 (226)-961-5446',
@@ -18,7 +18,7 @@ function App() {
     areasOfInterest : ['Software Development','IoT','Machine Learning'],
     languages: ['English','Tamil', 'Hindi'],
     links:{github:'https://github.com/rahulkumarravindran',linkedin:'https://www.linkedin.com/in/rahulkumarravindran/',stackoverflow:'https://stackoverflow.com/users/11459926/rahul'},
-
+    projects: [{name:'Resume',description:''},{name:'Task tracker',description:''},{name: 'Picture based authentication',description:''}],
   }
   return (
     <div className="App">

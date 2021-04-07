@@ -42,10 +42,14 @@ const Body = (props) => {
         </div>
         <br></br>
         <div className='body-bottom'> 
-            <h4>Social Media Links</h4>
+            <h4>Social Media Links:</h4>
             <a href={props.resumeDetails.links.github}><h5><img src={githubImage} alt='Github:'></img>{props.resumeDetails.links.github}</h5></a> 
             <a href={props.resumeDetails.links.stackoverflow}><h5><img src={stackoverflowImage} alt='StackOverFlow'></img>{props.resumeDetails.links.stackoverflow}</h5></a> 
             <a href={props.resumeDetails.links.linkedin}><h5><img src={linkedinImage} alt='LinkedIn'></img>{props.resumeDetails.links.linkedin}</h5></a>
+            <br></br>
+            <h4>Projects:</h4>
+            <h5></h5>
+            <p></p>
         </div>
         </>
     )
