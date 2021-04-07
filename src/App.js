@@ -18,7 +18,7 @@ function App() {
     areasOfInterest : ['Software Development','IoT','Machine Learning'],
     languages: ['English','Tamil', 'Hindi'],
     links:{github:'https://github.com/rahulkumarravindran',linkedin:'https://www.linkedin.com/in/rahulkumarravindran/',stackoverflow:'https://stackoverflow.com/users/11459926/rahul'},
-    projects: [{name:'Resume',description:''},{name:'Task tracker',description:''},{name: 'Picture based authentication',description:''}],
+    projects: [{name:'PDF merger application',description:"Application for merging PDFs and Converting images to PDF. The web application is made using HTML,CSS and Python Flask Framework. This application was created because I didn't want to "},{name:'Resume',description:''},{name:'Task tracker',description:''},{name: 'Picture based authentication',description:''}],
   }
   return (
     <div className="App">
