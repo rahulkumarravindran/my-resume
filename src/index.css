@@ -147,6 +147,7 @@
 
 .body-bottom ol p{
   text-align: justify;
+  padding-right: 10px;
 }
 
 @media screen and (max-width: 1092px) {
