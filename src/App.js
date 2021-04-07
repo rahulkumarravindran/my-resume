@@ -22,6 +22,7 @@ function App() {
   }
   return (
     <div className="App">
+      <head><title>Rahul Kumar Ravindran</title></head>
       <div className='resume'>
         <Header resumeDetails={resumeDetails}/>
         <Body resumeDetails={resumeDetails} />
