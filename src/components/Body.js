@@ -51,9 +51,10 @@ const Body = (props) => {
             <ol>{props.resumeDetails.projects.map((project)=>{return <li><h5>{project.name}</h5>
             <p>Created using : {project.technology}</p>
             <p>{project.description}</p>
-            <p>{project.sourceCode}</p></li>})}</ol>
+            <p><a href={project.sourceCode}>{project.sourceCode}</a></p></li>})}</ol>
             
         </div>
+        <br></br>
         </>
     )
 }

@@ -26,6 +26,7 @@ function App() {
         <Header resumeDetails={resumeDetails}/>
         <Body resumeDetails={resumeDetails} />
       </div>
+      <br></br>
     </div>
   );
 }
