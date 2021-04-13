@@ -206,7 +206,7 @@
   }
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 540px) {
   .resume{
     width: 96%;
     box-shadow: 5px 5px 5px 5px #BDC8E9;
@@ -226,7 +226,7 @@
     margin: auto;
   }
   .headerDetails{
-    width: 67%;
+    width: 80%;
     margin: auto;
     box-sizing: content-box;
     padding-left: 40px;
