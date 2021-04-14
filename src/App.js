@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header'
 import Body from './components/Body'
+import Footer from './components/Footer'
 
 function App() {
   const resumeDetails = {
@@ -20,13 +21,20 @@ function App() {
     links:{github:'https://github.com/rahulkumarravindran',linkedin:'https://www.linkedin.com/in/rahulkumarravindran/',stackoverflow:'https://stackoverflow.com/users/11459926/rahul'},
     projects: [{name:'PDF merger application',technology:'Python Flask',description:"Application for merging PDFs and Converting images to PDF. The web application is made using HTML,CSS and Python Flask Framework. We all would have used online pdf convertors and processors. We are skeptical about uploading our important personal information/documents. This application was created because I didn't want to upload my personal information to unknown websites.",sourceCode:'https://github.com/rahulkumarravindran/PDF_Merger_app'},{name:'Resume', technology:'React js',description:'This is a static web application made for displaying my resume online. It is hosted in Github',sourceCode:'https://github.com/rahulkumarravindran/my-resume'},{name: 'Picture based authentication',technology:'Python Flask',description:'I made this application during a MLH local Hackday conducted at Thoughtworks. This web application is a simple login page that uses pictures instead of conventional passwords. It allows users to select specific points in a image of their choice and set it as a password.',sourceCode:'https://github.com/rahulkumarravindran/picpass'},{name:'Task tracker',technology:'React js',description:'This is a website that lets you add tasks, delete and set reminders',sourceCode:'https://github.com/rahulkumarravindran/task-tracker'},],
   }
+
+  const printResume = () =>{
+    console.log("Print button clicked")
+    return ("")
+  }
   return (
     <div className="App">
       <div className='resume'>
         <Header resumeDetails={resumeDetails}/>
         <Body resumeDetails={resumeDetails} />
+        
       </div>
       <br></br>
+      <Footer printResume={printResume}/>
     </div>
   );
 }
