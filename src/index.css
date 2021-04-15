@@ -151,17 +151,30 @@
 }
 
 .Footer{
-  box-sizing: content-box;
+  width: 100%;
+  box-sizing: border-box;
   margin-bottom: 15px;
 }
 
 .Footer button{
-  height: 30px;
-  width: 40px;
+  height: 40px;
+  width: 50px;
   background-color: #152F79;
   border-radius: 10px;
   color: #ECEDF0;
+  font-size: 17px;
+  font-weight: bold;
 }
+
+.Footer button:hover{
+  box-sizing: content-box;
+  margin-top: 2px;
+  height: 35px;
+  width: 45px;
+}
+
+
+
 
 @media screen and (max-width: 1092px) {
   .resume{
@@ -243,6 +256,68 @@
     margin: auto;
     box-sizing: content-box;
     padding-left: 40px;
+  }
+}
+
+@media print {
+  .resume{
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .header{
+    /*background-color: #152F79;*/
+    color: #152F79;
+    display:block;
+    align-items: center;
+
+  }
+  .photo{
+    max-width: 143px;
+    max-height: 143px;
+    width: 50%;
+    margin: auto;
+  }
+  .headerDetails{
+    width: 80%;
+    margin: auto;
+    box-sizing: content-box;
+    padding-left: 40px;
+  }
+
+  .body-full .body-top{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .body-full .middleLine{
+    display: none;
+  }
+
+  .body-right{
+    color: #152F79;
+    text-align: left;
+    font-size: 15px;
+    width: 100%;
+    padding: 6px;
+    padding-left: 10px;
+    text-align: justify;
+    
+  }
+
+  .body-left{
+    color: #152F79;
+    text-align: left;
+    font-size: 15px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 3px;
+    padding-top: 6px;
+    text-align: justify;
+  }
+
+  .Footer{
+    display: none;
   }
 }
 

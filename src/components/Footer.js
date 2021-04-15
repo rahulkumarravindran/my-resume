@@ -1,8 +1,9 @@
 const Footer = (props) => {
     return (<>
     <div className='Footer'>
-        <button onClick={props.printResume}>Print</button>
+        <button className='big-button' onClick={props.printResume}>Print</button>
     </div>
+    <br></br>
     </>);
 }
 

@@ -6,7 +6,7 @@ import linkedinImage from './static/linkedin.png'
 const Body = (props) => {
     
     return(
-        <>
+        <div className='body-full'>
         <div className='body-top'>
             <div className='body-left'>
                 <h4>Professional Traits</h4>
@@ -21,7 +21,7 @@ const Body = (props) => {
                 <h4>Languages Known</h4> 
                 <Bullets bulletPoints={props.resumeDetails.languages} />
             </div>
-            <div class="middleLine"></div>
+            <div className="middleLine"></div>
             <div className='body-right'>
                 <h4>Summary</h4>
                 {props.resumeDetails.summary.map((element,index) => <p style={{paddingbottom: "4px"}} key={index}>{element}</p>)}
@@ -55,7 +55,7 @@ const Body = (props) => {
             
         </div>
         <br></br>
-        </>
+        </div>
     )
 }
 

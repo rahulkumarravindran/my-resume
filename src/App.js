@@ -23,8 +23,8 @@ function App() {
   }
 
   const printResume = () =>{
-    console.log("Print button clicked")
-    return ("")
+    //console.log("Print button clicked")
+    window.print()
   }
   return (
     <div className="App">
