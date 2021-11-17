@@ -12,7 +12,7 @@ const Body = (props) => {
                 <h4>Professional Traits</h4>
                 <Bullets bulletPoints={props.resumeDetails.professionalTraits}/>
                 <br></br>
-                <h4 style={{boxsizing: "content-box",margintop: "20px"}}>Achievements</h4>
+                <h4 style={{boxsizing: "content-box",margintop: "20px"}}>Awards and Certificates</h4>
                 <Bullets bulletPoints={props.resumeDetails.achievements}/>
                 <br></br>
                 <h4>Technical Skills</h4>
