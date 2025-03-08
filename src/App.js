@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 function App() {
   const resumeDetails = {
     name: 'Rahul Kumar Ravindran',
-    designation :'Graduate Student, Software Engineer, Python Developer',
+    designation :'Data Engineer, Python Developer',
     address:'Windsor, ON, Canada.',
     professionalTraits: ['Problem Solving capability','Logical Thinking','Punctuality','Team Management','Resilience','TeamWork'],
     summary: ['An Enthusiastic, Creative and Resilient graduate student at the prestigious University of Windsor who has an experience of 2 years in the field of Information Technology as a Project Engineer at Wipro Ltd.','Looking for an environment that offers a greater challenge and allows me to develop my skills and knowledge that helps realize my true potential.'],
